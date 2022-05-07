@@ -80,7 +80,7 @@
 #### 길드 가입 여부에 따른 리텐션 수준
 
 <p float="left" align="center">
-  <img src="/img/retention_guild_join.png" alt="retention_guild_join" style="zoom:70%;" width="40%"/> 
+  <img src="/img/retention_guild_join.png" alt="retention_guild_join" style="zoom:70%;" width="60%"/> 
   <img src="/img/retention_daily_guild.png" alt="retention_daily_guild" style="zoom:70%;"  width="60%"/>
 </p>
 
