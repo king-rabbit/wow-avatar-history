@@ -1,6 +1,6 @@
 # 월드 오브 워크래프트 아바타 로그 데이터 분석
 
-![image-20220507225308518](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225308518.png)
+![wow-title](/Users/gimsuyeong/Desktop/wow-avatar-history/img/wow-title.jpeg)
 
 
 
