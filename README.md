@@ -81,7 +81,7 @@
 
 <p float="left" align="center">
   <img src="/img/retention_guild_join.png" alt="retention_guild_join" style="zoom:70%;" width="40%"/> 
-  <img src="/img/retention_daily_guild.png" alt="retention_daily_guild" style="zoom:70%;"  width="40%"/>
+  <img src="/img/retention_daily_guild.png" alt="retention_daily_guild" style="zoom:70%;"  width="60%"/>
 </p>
 
 * 모든 기간에 걸쳐 길드에 가입한 유저의 리텐션이 그렇지 않은 유저의 리텐션보다 높음.
