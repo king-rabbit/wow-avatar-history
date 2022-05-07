@@ -21,7 +21,10 @@
 * 대만 연구진이 3년간 수집한 데이터로, 연구진은 게임 플레이어를 생성해 10분 간격으로 데이터를 수집함. 
 * 대만 Light’s Hope 영역에서 데이터를 수집했으며, 서버 내 같은 faction(이 경우엔 호드)의 플레이어 정보만 수집 가능.
 * 한번에 수집할 수 있는 데이터가 제한돼 있기 때문에 종족, 직업, 레벨을 다르게 설정해 여러번에 나눠 수집했다고 함.
-* 이번 분석에서는 2008년 데이터를 가공한 kaggle 버전를 분석함. > [**데이터출처**](https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history)
+  * [**raw 데이터 및 논문 출처**](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/)
+* 이번 분석에서는 2008년 데이터를 가공한 kaggle 버전를 분석함. 
+  * [**데이터 출처**](https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history)
+  * **용량 문제로 리포지토리에서는 제외함.** 데이터 파일명은 wowah_data.csv
 * 2008년에는 11월 13일 리치왕의 분노 확장팩이 출시돼 큰 변화가 발생함. 
 * 최고 레벨이 70에서 80으로 증가하고 the death knight라는 새로운 직업이 나옴.
 
@@ -29,6 +32,16 @@
 
 - 유저 아이디, 종족, 직업, 접속 시간, 해당 시점의 레벨, 위치 지역, 길드 정보를 수집함.
 - 아이디와 길드 이름 등은 익명 처리돼 있음.
+
+
+
+### 리포지토리 구성
+
+* EDA.ipynb: DAU, MAU, stickiness, 세션별 플레이시간, 신규 유저 수 등 기초 지표를 분석
+* retention.ipynb: 데일리 리텐션 및 길드 가입 여부 / 길드 사이즈에 따른 리텐션 분석
+* funnel.ipynb: 지역별 진입 최소 레벨에 따라 퍼널을 설정해 분석
+* churn.ipynb: 이탈율 및 이탈율 상위 지역/ 종족/ 직업 등 분석
+* /img: 이미지 파일 폴더 
 
 ​    
 
