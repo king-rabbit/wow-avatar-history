@@ -1,6 +1,8 @@
 # 월드 오브 워크래프트 아바타 로그 데이터 분석
 
-![wow-title](/Users/gimsuyeong/Desktop/wow-avatar-history/img/wow-title.jpeg)
+<p float="left" align="center">
+  <img src="/img/wow-title.jpeg" alt="wow_title" style="zoom:70%;" width="70%"/> 
+</p>
 
 
 
@@ -34,15 +36,20 @@
 
 #### DAU
 
-![image-20220507225539511](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225539511.png)
+<p float="left" align="center">
+  <img src="/img/dau.png" alt="dau" style="zoom:70%;" width="70%"/> 
+</p>
 
 * DAU는 전체 유저 대비 5% 수준(평균 1964명)
+
 * 10월 8일 사용자 수가 급등한 것은 대규모 패치가 예고 되면서 기대감이 반영된 것
 * 10월 7일에 리치 왕의 분노를 준비하기 위한 3.0.2 패치 '파멸의 메아리’에 대한 예고가 나옴
 
 #### Stickiness
 
-![image-20220507225616000](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225616000.png)
+<p float="left" align="center">
+  <img src="/img/stickiness.png" alt="stickiness" style="zoom:70%;" width="70%"/> 
+</p>
 
 * stickiness는 평균 24% 수준
 * 2008년 초 25%-30%를 유지하다가 10월 들어 10% 초반으로 급락함
@@ -50,7 +57,9 @@
 
 #### 신규 유저 수
 
-![image-20220507225647324](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225647324.png)
+<p float="left" align="center">
+  <img src="/img/new_users_perc.png" alt="new_users" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 매일 평균 54명의 신규 유저가 게임에 진입함. DAU 대비 2.6% 수준.
 * 10월 8일 신규 유저 비율이 47%로 급등한 것 역시 리치왕의 분노 확장팩 출시에 대한 기대감이 반영된 것으로 보임.
@@ -59,7 +68,9 @@
 
 ### 리텐션 분석
 
-![image-20220507225723787](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225723787.png)
+<p float="left" align="center">
+  <img src="/img/retention.png" alt="retention" style="zoom:70%;" width="70%"/> 
+</p>
 
 * Day1 리텐션은 28% 수준이며 Day8 이후 15% 아래로 떨어짐. 또한 Day 50 이후에는 대체로 9% 이하의 리텐션 수준을 보여줌. 단, 몇 번의 예외를 제외하면 5% 아래로 하락하는 경우는 적음.
 * Day300까지 리텐션이 서서히 감소 또는 유지 흐름을 보이다가 Day330 이후로 리텐션 수준이 다시 상승했음. 확장팩 릴리즈의 영향으로 해석됨.
@@ -68,7 +79,10 @@
 
 #### 길드 가입 여부에 따른 리텐션 수준
 
-![image-20220507225741269](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225741269.png)
+<p float="left" align="center">
+  <img src="/img/retention_guild_join.png" alt="retention_guild_join" style="zoom:70%;" width="40%"/> 
+  <img src="/img/retention_daily_guild.png" alt="retention_daily_guild" style="zoom:70%;"  width="40%"/>
+</p>
 
 * 모든 기간에 걸쳐 길드에 가입한 유저의 리텐션이 그렇지 않은 유저의 리텐션보다 높음.
 * 길드 가입한 유저의 리텐션은 평균 43%인반면 길드 없는 유저들의 리텐션은 평균 7.5%에 그침.
@@ -77,7 +91,9 @@
 
 #### 길드 크기에 따른 리텐션 수준
 
-![image-20220507225838156](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225838156.png)
+<p float="left" align="center">
+  <img src="/img/retention_guild_size.png" alt="retention_guild_size" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 23명(길드 규모 평균)을 기준으로 대규모 길드와 소규모 길드를 나눔.
 * 길드 규모에 따라 day N 리텐션 비율이 어떻게 달라지는지 집계함.
@@ -88,7 +104,9 @@
 
 ### 퍼널 분석
 
-![image-20220507225904641](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225904641.png)
+<p float="left" align="center">
+  <img src="/img/funnel_entire.png" alt="funnel_entire" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 10-20 레벨에서의 전환율이 19%로 가장 낮음. 레벨 10을 넘어가기가 어렵다는 것을 보여줌.
 * 나머지 구간의 전환율은 대부분 80% 후반이거나 90%로, 레벨 10 이상을 달성하면 레벨 70까지 중도 이탈하는 유저는 적음.
@@ -96,7 +114,9 @@
 
 #### 확장팩 런칭 전/후 비교
 
-![image-20220507225927822](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507225927822.png)
+<p float="left" align="center">
+  <img src="/img/funnel_lk_or_not.png" alt="funnel_lk_or_not" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 리분(WotLK) 런칭 이후 모든 단계의 전환율이 상승함. 레벨 10 이상을 달성하는 유저도 19%에서 24%로 5%p 증가함.
 * 또한 10-20, 60-70 구간을 제외하고 모든 구간에서 전환율이 90% 이상을 달성함.
@@ -106,7 +126,9 @@
 
 ### 이탈율 분석
 
-![image-20220507230007122](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507230007122.png)
+<p float="left" align="center">
+  <img src="/img/churn_rate.png" alt="churn_rate" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 90일 이상 접속하지 않은 유저를 이탈한 유저로 규정함.
 * 이탈율은 평균 3.2% 수준이며, 2008년 6월까지는 항상 5% 미만을 기록함.    
@@ -114,7 +136,9 @@
 
 #### 레벨별 이탈 수준
 
-![image-20220507230025867](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507230025867.png)
+<p float="left" align="center">
+  <img src="/img/churn_level.png" alt="churn_level" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 레벨 10 이하에서 많이 떠나므로 레벨 10까지 도달하게 만드는 것이 중요        
 * 레벨 60에서도 다소 떠난 유저가 많아 게임을 지속할 새로운 요인을 제공할 필요가 있음.
@@ -122,7 +146,9 @@
 
 #### 이탈율 상위 지역
 
-![image-20220507230050425](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507230050425.png)
+<p float="left" align="center">
+  <img src="/img/zone_churn.png" alt="zone_churn" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 지역별로 해당 지역에서의 활동을 마지막으로 이탈한 유저의 비율을 계산함.
 * 세데크 전당, 오그리마 전설의 전당, 폭풍우 요새, 검은 사원 등이 상위권을 차지함. 이들 지역은 보상이 별로 없거나 난이도가 너무 높아 인기가 없음. 폭풍우 요새와 검은 사원 등은 추후 입장 퀘스트가 없어짐.
@@ -130,7 +156,9 @@
 
 #### 이탈율 상위 지역(대규모 지역)
 
-![image-20220507230123583](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507230123583.png)
+<p float="left" align="center">
+  <img src="/img/zone_churn_large.png" alt="zone_churn_large" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 유저 규모 1000명 이상인 지역에서 이탈율 상위 지역 분석
 * 영원노래의 숲, 멀고어, 티리스팔 숲, 불모의 땅, 실버문 등에서 이탈율이 높게 나타남. 영원노래의 숲은 동선이 복잡한 것으로 유명함
@@ -138,7 +166,9 @@
 
 #### 종족 및 직업별 이탈 수준
 
-![image-20220507230152165](/Users/gimsuyeong/Library/Application Support/typora-user-images/image-20220507230152165.png)
+<p float="left" align="center">
+  <img src="/img/race_class_churn.png" alt="race_class_churn" style="zoom:70%;" width="70%"/> 
+</p>
 
 * 블러드엘프 종족이 가장 많이 이탈함. 블러드엘프와 도적(rogue), 흑마법사(warlock), 사냥꾼(hunter) 조합의 이탈률이 가장 높음.
 * 블러드엘프의 경우 영원노래의 숲에서 게임을 시작하는데 이곳의 퀘스트 동선이 복잡해 이탈율이 높은 것으로 추정됨.
