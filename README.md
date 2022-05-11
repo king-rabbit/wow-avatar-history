@@ -4,6 +4,20 @@
   <img src="/img/wow-title.jpeg" alt="wow_title" style="zoom:70%;" width="70%"/> 
 </p>
 
+### 리포지토리 구성
+
+- EDA.ipynb: DAU/MAU, 플레이시간, 신규 유저 비율 등 기초 지표 탐색
+
+- retention.ipynb : 리텐션 분석
+
+- funnel.ipynb : 퍼널 분석
+
+- churn.ipynb : 이탈률 분석
+
+- wow-avatar-summary.pdf : 프로젝트 분석 보고서
+
+- /img: 그래프 등 이미지 파일 폴더
+
 
 
 ### 월드 오브 워크래프트
@@ -24,7 +38,7 @@
   * [**raw 데이터 및 논문 출처**](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/)
 * 이번 분석에서는 2008년 데이터를 가공한 kaggle 버전를 분석함. 
   * [**데이터 출처**](https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history)
-  * **용량 문제로 리포지토리에서는 제외함.** 데이터 파일명은 wowah_data.csv
+  * **용량 문제로 리포지토리에서는 제외함.** 데이터 파일명은 wowah_data.csv (로그 기록), zones.csv, locations.csv (지역 정보)
 * 2008년에는 11월 13일 리치왕의 분노 확장팩이 출시돼 큰 변화가 발생함. 
 * 최고 레벨이 70에서 80으로 증가하고 the death knight라는 새로운 직업이 나옴.
 
